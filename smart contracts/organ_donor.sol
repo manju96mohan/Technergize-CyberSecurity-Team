@@ -1,6 +1,8 @@
 pragma solidity ^0.4.4;
 //contract to store donor details
 //by Aditya Sahu
+//TESTED, NO LOGICAL, SYNTAX OR RUNTIME ERRORS
+// IGNORE 10 WARNINGS SHOWN MY REMIX IDE
 contract Donor_Record{
     struct DonorRecord {
         uint64 uid; 	//unique id for donor
